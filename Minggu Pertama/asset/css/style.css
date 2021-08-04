@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+.jumbotron {
+  font-size: 20px;
+  background-color: #fac100;
+  text-align: center;
+  color: white;
+  padding: 80px;
+}
+.jumbotron h1 {
+  border-style: dashed;
+  /*padding: 10px; */
+  /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 10px;
+    margin: 20px; */
+  text-align: center;
+}
+
+nav {
+  background-color: #b07503;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 400;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  margin: 20px;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+#information {
+  float: right;
+  width: 22%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.border{
+  border: 1px black;
+}
+
+@media screen and (min-width:600px) and (max-width:600px){
+  #content,
+  #information{
+    nav: none;
+  }
+}
+
+#footer {
+clear: both;
+text-align: center;
+}
