@@ -1,0 +1,20 @@
+#jumbotron {
+  background-image: url("./stacked-waves-haikei.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  padding-top: 4rem;
+}
+
+#about-us {
+  padding-top: 4rem;
+}
+
+#product {
+  background-color: #42ba96;
+  padding-top: 4rem;
+}
+footer {
+  background-color: #009473;
+  padding-top: 4rem;
+}
