@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript part 2</title>
+  </head>
+  <body>
+    <script>
+      // method
+      function sayName(depan = "", belakang = "") {
+        document.writeln(`Nama saya ${(depan, belakang)} <br>`);
+      }
+      // function
+      function squareArea(sisi = 1) {
+        const luas = sisi ** 2;
+        return luas;
+      }
+      function getScore(value) {
+        if (value > 90) {
+          return " lumayan";
+        } else {
+          return " ngga dulu";
+        }
+      }
+      function object(
+        name = "",
+        gender = "prefer not to say",
+        age = "prefer not to say"
+      ) {
+        document.writeln(
+          `Name: ${name} || gender:${gender} || age: ${age}<br>`
+        );
+      }
+      //arrow function
+      const greetings = (name) => document.writeln(`haloo ${name}`);
+
+      // looping
+      function countingNums(number) {
+        for (i = 0; i <= number; i++) {
+          document.writeln(`ke-${i} <br>`);
+        }
+      }
+
+      // array type looping
+      const listName = ["Puan", "pUan", "puAn", "puaN"];
+      listName.forEach((element) => {
+        document.writeln(`${element} <br>`);
+      });
+
+      // output
+      sayName("bambang", "gentolet");
+      document.writeln(`Luasnya ${squareArea(10)} <br>`);
+      document.writeln(`Kamu ${getScore(10)} <br>`);
+      object("abil");
+      greetings("bambang");
+      countingNums(100);
+    </script>
+  </body>
+</html>

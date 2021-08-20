@@ -1,0 +1,29 @@
+ Analisis 1
+
+Pertama kita diminta untuk melakukan clone pada repo dari kak ghany  
+
+Cukup dengan melakukan dengan url https://github.com/ghanyersa24/belajar-git.git. Di 	 
+
+directory yang diinginkan 
+
+Saya memilih fitur home, jadi saya harus membuat branch bernama abil_home pada repo belajar-git tadi. Syntax : git branch abil_home 
+
+Perubahan pertama adalah merubah nama footer dengan nama sendiri, lalu di commit dengan messages “mengganti dengan nama sendiri” dan “footer dengan id dari abil” .  
+
+Lalu sekarang melakukan staging pada file css. Setelah itu kita merubah file css tersebut. Saya merubah padding = 10px, text = center dan warna menjadi warna putih dan background hitam. Lalu commit file dengan message “style footer dari abil” 
+
+Selanjutnya, merubah nama developer menjadi nama sendiri, lalu di simpan pada branch baru yang dibuat dengan nama new_abil_home. Setelah membuat branch baru, melakukan commit dengan messages “tambah nama dari abil” 
+
+
+Analisis 2
+
+Saat berada pada branch new_nama_abil, kita melakukan commit yaitu dengan merubah nama developer menjadi nama sendiri pada list developer dengan messages “abil sudah menggunakan git”. Jadi perbuahan terjadi pada branch new_abil_home saja tidak pada abil_home. Lalu dilakukan merge pada new_abil_home ke abil_home, sehingga abil_home memiliki perubahan yang dilakukan di new_abil_home. 
+
+Setelah itu melakukan push ke repo online dengan syntax git push origin abil_home 
+
+Lalu kita akan melakukan merge pada fitur yang dipilih yaitu home, sehingga kita harus checkout dulu ke branch fitur, lalu kita melakukan merge : git checkout home, git merge abil_home. Disini kita melakukan penggabungan code yang kita tulis dengan yang ada di repo online pada fitur pilihan yaitu home. 
+
+Lalu kita akan mempush untuk memperbarui repo online dengan source code kita, agar tidak terjadi error, maka dilakukan commit dulu dengan messages “mau ngepush dari abil”, tujuannya ke home atau fitur pilihan. Setelah sukses, makan file repo online sudah terupdate seperti yang diinginkan. 
+
+
+yaitu
